@@ -1,4 +1,4 @@
-package com.zxa.common;
+package com.zxa.backtrack;
 
 import java.util.Arrays;
 
