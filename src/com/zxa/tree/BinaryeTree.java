@@ -23,7 +23,7 @@ public class BinaryeTree {
             this.right = node;
         }
         
-        ;
+        
         
     }
     
