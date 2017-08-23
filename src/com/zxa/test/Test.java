@@ -5,8 +5,19 @@ package com.zxa.test;
  */
 public class Test {
     public static void main(String[] args) {
-        System.out.println(f(12));
+        Integer a = 56;
+        Integer b = new Integer(56);
+        Integer d = Integer.valueOf(128);
+//        int c = 56;
+//        System.out.println(a .equals(b) );
+//        System.out.println(a == c);
+        System.out.println(128 == d);
+        System.out.println( b == 128);
+//        System.out.println(f(12)
+        
+    
     }
+    
     public static int f(int n) {
         if (n == 1 || n == 2) {
             return 1;
@@ -15,11 +26,11 @@ public class Test {
         }
     }
     
-    public static int test(int a,int b,int n){
-        if(n == 0)
+    public static int test(int a, int b, int n) {
+        if (n == 0)
             return b;
-        System.out.print(b+"\t");
-        return test(b,a+b,n-1);
+        System.out.print(b + "\t");
+        return test(b, a + b, n - 1);
     }
     
     
