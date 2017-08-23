@@ -20,7 +20,7 @@ public class Count1 {
         
         //相关题目
         //判断一个数是否为2的整数次方
-            System.out.println((n-1&n) == 0);
+        System.out.println((n-1&n) == 0);
     }
     
     
