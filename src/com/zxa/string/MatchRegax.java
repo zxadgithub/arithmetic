@@ -9,7 +9,8 @@ public class MatchRegax {
 //        String s = "afgga";
         System.out.println(matchRegax.match("aasdffg","a.*g"));
     }
-    
+
+
     public boolean match(String str,String pattern){
         if(str.equals("") || pattern.equals(""))
             return true;
@@ -24,9 +25,12 @@ public class MatchRegax {
         if(!str.equals("") && pattern.equals("")){
             return false;
         }
+        if(str.equals("") && !pattern.equals("")){
+            return false;
+        }
         
-        if(pattern.charAt(1) == '*'){
-            if(pattern.charAt(0) == str.charAt(0) || (pattern.charAt(0) == '.' && str != "")){
+        if(pattern.length() > 1 && pattern.charAt(1) == '*'){
+            if(pattern.charAt(0) == str.charAt(0) || (pattern.charAt(0) == '.' && !str.equals(""))){
                 return mactchCore(str.substring(1,str.length()),pattern.substring(2,pattern.length()))
                         ||mactchCore(str.substring(1,str.length()),pattern)
                         ||mactchCore(str,pattern.substring(2,pattern.length()));
