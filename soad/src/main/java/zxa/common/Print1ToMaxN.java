@@ -1,4 +1,4 @@
-package com.zxa.common;
+package zxa.common;
 
 import java.util.Arrays;
 

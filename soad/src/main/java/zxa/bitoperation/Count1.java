@@ -1,4 +1,4 @@
-package com.zxa.bitoperation;
+package zxa.bitoperation;
 
 
 /**

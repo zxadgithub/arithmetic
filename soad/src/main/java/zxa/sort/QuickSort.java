@@ -1,4 +1,4 @@
-package com.zxa.sort;
+package zxa.sort;
 
 /**
  * Created by shixi006 on 2017/8/18.

@@ -1,4 +1,4 @@
-package com.zxa.greedy;
+package zxa.greedy;
 
 /**
  * Created by 张新安 on 2017/8/22.

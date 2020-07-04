@@ -1,4 +1,4 @@
-package com.zxa.common;
+package zxa.common;
 
 /**
  * Created by shixi006 on 2017/8/22.

@@ -1,4 +1,4 @@
-package com.zxa.dynamic;
+package zxa.dynamic;
 
 /**
  * Created by shixi006 on 2017/8/22.

@@ -1,6 +1,6 @@
-package com.zxa.search;
+package zxa.search;
 
-import com.zxa.sort.QuickSort;
+import zxa.sort.QuickSort;
 
 /**
  * Created by shixi006 on 2017/8/21.

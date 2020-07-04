@@ -1,4 +1,4 @@
-package com.zxa.linkedlist;
+package zxa.linkedlist;
 
 /**
  * Created by shixi006 on 2017/8/23.

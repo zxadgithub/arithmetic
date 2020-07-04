@@ -1,4 +1,4 @@
-package com.zxa.string;
+package zxa.string;
 
 /**
  * Created by shixi006 on 2017/8/23.

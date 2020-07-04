@@ -1,4 +1,4 @@
-package com.zxa.test;
+package zxa.test;
 
 /**
  * Created by shixi006 on 2017/8/18.
